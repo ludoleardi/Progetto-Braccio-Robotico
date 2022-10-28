@@ -55,8 +55,8 @@ void loop()
   middlePos = constrain(middlePos, 0, 180);
 
   ringValue = analogRead(ringFlex);
-  thumbPos = map(ringValue, 770, 950, 0, 180);
-  thumbPos = constrain(ringPos, 0, 180);
+  ringPos = map(ringValue, 770, 950, 0, 180);
+  ringPos = constrain(ringPos, 0, 180);
 
   pinkieValue = analogRead(pinkieFlex);
   pinkiePos = map(pinkieValue, 770, 950, 0, 180);
