@@ -25,7 +25,7 @@ void setup()
 
 void loop() 
 { 
-  //dichiario le variabili per posizione motore e sensore flessione
+  //dichiaro le variabili per posizione motore e sensore flessione
   int thumbValue;
   int thumbPos;
 
